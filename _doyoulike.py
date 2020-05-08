@@ -18,7 +18,7 @@ np.random.seed(123) #ensure reproducibility
 pd.options.mode.chained_assignment = None 
 
 dt = pd.read_csv("heart.csv")
-
+#
 
 dt.columns = ['age', 'sex', 'chest_pain_type', 'resting_blood_pressure', 'cholesterol', 'fasting_blood_sugar', 'rest_ecg', 'max_heart_rate_achieved',
        'exercise_induced_angina', 'st_depression', 'st_slope', 'num_major_vessels', 'thalassemia', 'target']
